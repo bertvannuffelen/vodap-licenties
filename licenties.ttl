@@ -3,10 +3,12 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix mu:	<http://mu.semte.ch/vocabularies/core/> .
 
 
 <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> a dct:LicenseDocument;
       rdf:type cc:License ;
+      mu:uuid '045bf141-bef4-4268-81d7-6b0ebadea7a8';
       cc:requires cc:Attribution ;
       dct:type <http://purl.org/adms/licencetype/Attribution> ;
       rdfs:seeAlso <https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-gratis-hergebruik> ;
@@ -15,6 +17,7 @@
 
 <http://data.vlaanderen.be/id/licentie/modellicentie-hergebruik-tegen-vergoeding/v1.0> a dct:LicenseDocument;
       rdf:type cc:License ;
+      mu:uuid '00dd11b5-92f0-42fb-8b8d-5d4dce2d2d74';
       cc:requires cc:Attribution ;
       dct:type <http://purl.org/adms/licencetype/NominalCost> ;
       dct:type <http://purl.org/adms/licencetype/Attribution> ;
@@ -25,9 +28,9 @@
 
 <http://data.vlaanderen.be/id/licentie/creative-commons-zero-verklaring/v1.0> a dct:LicenseDocument;
       rdf:type cc:License ;
+      mu:uuid 'c1f0a56e-4608-4fa6-8cf7-f72194b062ac';
       dct:type <http://purl.org/adms/licencetype/PublicDomain> ;
       rdfs:seeAlso <https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/cc0> ;
       owl:sameAs <https://creativecommons.org/publicdomain/zero/1.0/> ;
       dct:title "Creative Commons Zero verklaring"@nl ;
       dct:description "De instantie doet afstand van haar intellectuele eigendomsrechten voor zover dit wettelijk mogelijk is. Hierdoor kan de gebruiker de data hergebruiken voor eender welk doel, zonder een verplichting op naamsvermelding. Deze is de welbekende CC0 licentie."@nl.
-
