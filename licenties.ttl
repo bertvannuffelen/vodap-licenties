@@ -11,6 +11,7 @@
       dct:type <http://purl.org/adms/licencetype/Attribution> ;
       rdfs:seeAlso <https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-gratis-hergebruik> ;
       dct:title "Modellicentie voor gratis hergebruik"@nl ;
+      owl:versionInfo "v1.0" ;
       dct:description "Onder deze licentie doet de instantie geen afstand van haar intellectuele rechten, maar mag de data voor eender welk doel hergebruikt worden, gratis en onder minimale restricties."@nl.
 
 <http://data.vlaanderen.be/id/licentie/modellicentie-hergebruik-tegen-vergoeding/v1.0> a dct:LicenseDocument;
@@ -21,6 +22,7 @@
 
       rdfs:seeAlso <https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-hergebruik-tegen-vergoeding> ;
       dct:title "Modellicentie voor hergebruik tegen vergoeding"@nl ;
+      owl:versionInfo "v1.0" ;
       dct:description "Onder deze licentie stelt de instantie nog steeds haar data ter beschikking voor eender welk hergebruik, maar wil zij hiervoor een vergoeding ontvangen. In regel is deze vergoeding beperkt tot de marginale kosten voor vermenigvuldiging, verstrekking en verspreiding."@nl.
 
 <http://data.vlaanderen.be/id/licentie/creative-commons-zero-verklaring/v1.0> a dct:LicenseDocument;
@@ -29,5 +31,6 @@
       rdfs:seeAlso <https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/cc0> ;
       owl:sameAs <https://creativecommons.org/publicdomain/zero/1.0/> ;
       dct:title "Creative Commons Zero verklaring"@nl ;
+      owl:versionInfo "v1.0" ;
       dct:description "De instantie doet afstand van haar intellectuele eigendomsrechten voor zover dit wettelijk mogelijk is. Hierdoor kan de gebruiker de data hergebruiken voor eender welk doel, zonder een verplichting op naamsvermelding. Deze is de welbekende CC0 licentie."@nl.
 
